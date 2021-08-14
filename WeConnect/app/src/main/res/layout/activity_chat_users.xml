@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".ChatUsersActivity" >
+
+
+    <RelativeLayout
+        android:id="@+id/RLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="55dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fullnamee"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:text="Full-Name"
+                android:textColor="@color/design_default_color_primary_dark"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listt"
+        android:layout_width="401dp"
+        android:layout_height="606dp"
+        android:layout_alignBottom="@+id/textt"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="50dp"
+
+        android:background="#FDF7F7"
+        android:cacheColorHint="#F1ECEC" />
+
+    <EditText
+        android:id="@+id/textt"
+        android:layout_width="365dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/input"
+        android:hint="Enter the Message.."
+        android:inputType="textPersonName"
+        android:padding="5dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileimagee"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/person" />
+
+    <ImageView
+        android:id="@+id/sent"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="24dp"
+
+        android:padding="5dp"
+        android:src="@drawable/sent" />
+
+</RelativeLayout>

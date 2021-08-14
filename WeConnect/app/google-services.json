@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "626403570461",
+    "firebase_url": "https://snaps-b49a7.firebaseio.com",
+    "project_id": "snaps-b49a7",
+    "storage_bucket": "snaps-b49a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626403570461:android:22096991bc964c4455e7f4",
+        "android_client_info": {
+          "package_name": "com.example.instagram_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626403570461-ka6lfpop2tfjpdnp10c9rf6dvoc44u2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcMxZZV9u_AFOKxcBdIUN8Hheb0fH919A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626403570461-ka6lfpop2tfjpdnp10c9rf6dvoc44u2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626403570461:android:a4800f08bfb89b8155e7f4",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626403570461-ka6lfpop2tfjpdnp10c9rf6dvoc44u2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcMxZZV9u_AFOKxcBdIUN8Hheb0fH919A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626403570461-ka6lfpop2tfjpdnp10c9rf6dvoc44u2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626403570461:android:6ca18721d34995ba55e7f4",
+        "android_client_info": {
+          "package_name": "com.example.weconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626403570461-ka6lfpop2tfjpdnp10c9rf6dvoc44u2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcMxZZV9u_AFOKxcBdIUN8Hheb0fH919A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626403570461-ka6lfpop2tfjpdnp10c9rf6dvoc44u2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
